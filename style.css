@@ -44,6 +44,12 @@ a {
         gap: 15px;
         width: 450px;
 
+        .title {
+            color: #f9faf8;
+            font-size: 48px;
+            font-weight: 900;
+        }
+
         .text {
             font-size: 18px;
             color: #E5E7Eb;
@@ -57,12 +63,6 @@ a {
             padding: 8px 6px;
             border-radius: 25px;
         }
-    }
-
-    .title {
-        color: #f9faf8;
-        font-size: 48px;
-        font-weight: 900;
     }
 
 }
