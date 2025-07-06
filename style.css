@@ -94,6 +94,10 @@ a {
         margin-top: 15px;
     }
 
+    img{
+        border-radius: 15px;
+    }
+
 }
 
 .section3 {
