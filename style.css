@@ -26,7 +26,7 @@ ul {
 }
 
 a {
-    color: #E5E7Eb;
+    color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
 }
@@ -67,14 +67,33 @@ a {
 
 }
 
-
-
 .section2 {
     display: flex;
-}
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    padding-top: 50px;
+    gap: 50px;
 
-.container {
-    display: flex;
+    .title {
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+    .container {
+        display: flex;
+        gap: 50px;
+    }
+
+    .text {
+        font-size: 18px;
+        color: grey;
+        text-align: center;
+        width:250px;
+        margin-top: 15px;
+    }
+
 }
 
 .section3 {
